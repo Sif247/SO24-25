@@ -1,4 +1,4 @@
-# SO24-25-
+# SO24-25
 Repository per Sistemi Operativi (A.A. 2024-25) 
 
 git clone https://github.com/letizialeonardi/SO24-25.git
