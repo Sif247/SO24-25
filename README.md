@@ -1,41 +1,39 @@
-# Operating Systems Course
+# 🖥️ Operating Systems Course
 
-## Overview
+## 📌 Overview
+This repository contains materials and exercises for the **Operating Systems course** at the **University of Modena**, taught by **Letizia Leonardi**. The course covers:
+- Theoretical concepts of operating systems.
+- System programming using **Shell scripting** and **C**.
+- Hands-on lab activities in a **UNIX/Linux environment**.
 
-This repository contains materials and exercises for the Operating Systems course of University of Modena by Letizia Leonardi. The course covers theoretical concepts, system programming using shell scripting and C, and hands-on lab activities in a UNIX/Linux environment.
+---
 
-## Course Structure
+## 📚 Course Structure
 
-- 1. Introduction
+### 1️⃣ Introduction 
+🔹 **Classification of Operating Systems**: multi-user and multiprocess systems.
+🔹 **The Operating System as a resource manager**.
+🔹 **Processes & Threads**: scheduling and deadlock problems.
+🔹 **Memory Management**: fundamentals and virtual memory.
+🔹 **File & Directory Management**: logical and physical organization of the File System.
 
--- Classification of Operating Systems, with a focus on multi-user and multiprocess systems.
+### 2️⃣ System Programming with Command Languages 
+🔹 **Basic command-line utilities**.
+🔹 **Writing shell scripts** (including recursion) using a **UNIX Shell**.
 
--- The Operating System as a resource manager.
+### 3️⃣ System Programming in C for UNIX 
+🔹 **Low-level file access primitives**: `open`, `creat`, `close`, `read`, `write`, `lseek`.
+🔹 **Process management primitives**: `fork`, `exit`, `wait`, `pipe`, `signal`, `kill`.
+🔹 **Process communication and synchronization mechanisms**.
 
--- Introduction to processes and threads: scheduling and deadlock problems.
+### 4️⃣ Operating Systems Laboratory 
+🔹 **Hands-on exercises** in a **UNIX/Linux environment**.
+🔹 **Practical implementation of system programming** in **Shell and C**.
+🔹 **Final project**: A recursive **file system search tool** combining **Shell scripting & C programming**.
 
--- Memory management fundamentals, including virtual memory.
+---
 
--- File and directory management: logical and physical organization of the File System.
 
-- 2. System Programming with Command Languages (Approx. 2 CFU)
-
--- Basic command-line utilities.
-
--- Writing shell scripts, including recursive scripts, using a UNIX Shell.
-
-- 3. System Programming in C for UNIX (Approx. 3 CFU)
-
--- Low-level file access primitives: open, creat, close, read, write, and lseek.
-
--- Process management primitives: fork, exit, wait, pipe, signal, and kill.
-
--- Process communication and synchronization mechanisms.
-
-- 4. Operating Systems Laboratory (Approx. 3 CFU)
-
--- Hands-on exercises in a UNIX/Linux environment.
-
--- Practical implementation of system programming in both Shell and C.
+🚀 *Happy Coding!*
 
 
