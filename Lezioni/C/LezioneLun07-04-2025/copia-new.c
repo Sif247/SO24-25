@@ -11,7 +11,7 @@ il risultato e' comunque che il file viene creato con i diritti rw per U, e r pe
 Vediamo perche'.  Dal manuale della open/creat scopriamo che:
 The effective permissions are modified by the process's umask in the usual way: The permissions of the created file are (mode & ~umask)
 Quindi se mode = 0666 e umask = 0022, tralasciando lo 0 iniziale abbiamo che
-666 in binario e' 10110110 e 022 e'¨ 000010010 e quindi ~umaske'¨ 111101101 e quindi mode & ~umk e'
+666 in binario e' 10110110 e 022 e' 000010010 e quindi ~umaske e' 111101101 e quindi mode & ~umk e'
   110110110 &
   111101101
   =========

@@ -1,4 +1,4 @@
-/* Programma in C copia.c che ha bisogno di die parametri: il primo parametro deve essere il nome di un file leggibile il cui contenuto sara' copiato nel file, il cui nome e' passato come secondo parametro; N.B. abbiamo realizzato programmando in C il comando cp di UNIX! */ 
+/* Programma in C copia.c che ha bisogno di due parametri: il primo parametro deve essere il nome di un file leggibile il cui contenuto sara' copiato nel file, il cui nome e' passato come secondo parametro; N.B. abbiamo realizzato programmando in C il comando cp di UNIX! */ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h> 	/* per poter usare, oltre che la primitiva close, anche read e write */

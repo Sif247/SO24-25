@@ -1,4 +1,4 @@
-/* Programma in C mycat.c che agisce come il comando-filtro cat (come mycat-filtro.c), ma puo'² omportarsi anche come il comando cat pero' SOLO con un nome di file */
+/* Programma in C mycat.c che agisce come il comando-filtro cat (come mycat-filtro.c), ma puo' comportarsi anche come il comando cat pero' SOLO con un nome di file */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
