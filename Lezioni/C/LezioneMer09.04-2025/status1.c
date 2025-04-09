@@ -1,4 +1,4 @@
-/* Programma in C status1.c che non ha bisogno di parametri e mostra l'uso della primitiva  fork per la creazione di un processo figlio e della primitiva wait per l'attesa del figlio da parte del padre, con recupero del valore tornato dal figlio */
+/* Programma in C status1.c che non ha bisogno di parametri e mostra l'uso della primitiva fork per la creazione di un processo figlio e della primitiva wait per l'attesa del figlio da parte del padre, con recupero del valore tornato dal figlio */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -17,7 +17,7 @@ int main ()
 
 	if (pid == 0)
 	{ 	/* figlio */
-		printf("Esecuzione del figlio\n");
+		printf("Esecuzione del figlio con PID = %d\n", getpid());
 		sleep(4); 	/* si simula con un ritardo di 4 secondi che il figlio faccia qualcosa! */
 		exit(5);	/* si torna un valore che si suppone possa essere derivante dall'esecuzione di un compito assegnato al figlio */
 	}

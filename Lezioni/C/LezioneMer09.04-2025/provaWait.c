@@ -16,7 +16,7 @@ int main ()
 
 	if (pid == 0)
 	{ 	/* figlio */
-		printf("Esecuzione del figlio\n");
+		printf("Esecuzione del figlio cpn PID = %d\n", getpid());
 		sleep(4); 	/* si simula con un ritardo di 4 secondi che il figlio faccia qualcosa! */
 		exit(5);	/* si torna un valore che si suppone possa essere derivante dall'esecuzione di un compito assegnato al figlio */
 	}
