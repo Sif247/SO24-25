@@ -32,7 +32,7 @@ int main ()
 		exit(2);
 	}
 
-	/* il padre analizza il valore di status per capire se il figlio e' terminato in modo anomalo cio' involontario */
+	/* il padre analizza il valore di status per capire se il figlio e' terminato in modo anomalo cioe' involontario */
 	if ((status & 0xFF) != 0)
     		printf("Figlio terminato in modo involontario (cioe' anomalo)\n");
     	else	/* oppure se e' terminato in modo normale e in tal caso recupera il valore ritornato */
