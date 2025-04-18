@@ -15,7 +15,7 @@ int main  (int argc, char **argv)
     int fd; 			/* per la open */
 
 
-	/* conptrollo numero di parametri */
+	/* controllo numero di parametri */
 	if (argc != 3)
 	{ 	
 	        printf("Errore: numero di argomenti sbagliato dato che argc = %d\n", argc);
