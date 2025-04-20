@@ -1,4 +1,4 @@
-/* File padreFiglioConStatus1.c che non ha bisogno di parametri e in cui il padre crea un processo figlio che deve generare un numero random (fra 0 e 99) e quindi lo torna al padre. Il padre deve stampare il valore ritornato dal figlio (sicuramente minore di 255). Il padre dopo la prima wait ne fa un altra che andra' in errore perche' Ã¨ stato creato un solo figlio: quindi il numero di fork e il numero di (eventuali) wait DEVE essere uguale */
+/* File padreFiglioConStatus1.c che non ha bisogno di parametri e in cui il padre crea un processo figlio che deve generare un numero random (fra 0 e 99) e quindi lo torna al padre. Il padre deve stampare il valore ritornato dal figlio (sicuramente minore di 255). Il padre dopo la prima wait ne fa un altra che andra' in errore perche' e'¨ stato creato un solo figlio: quindi il numero di fork e ilnumero di (eventuali) wait DEVE essere uguale */ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
