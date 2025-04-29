@@ -17,18 +17,18 @@ int main ()
 	
 	if (pid == 0) 
 	{ 	/* figlio */ 
-		printf("Esecuzione del figlio %d\n", getpid()); 
+		printf("Esecuzione del figlio %d con padre %d\n", getpid(), getppid()); 
 		/* per fare in modo che il figlio non termini subito gli facciamo aspettare un dato che deve essere fornito dall'utente */
 		/* potevamo usare anche una sleep, ma in questo modo possiamo tenere più sotto controllo la situazione */
 		printf("Fornisci un valore intero\n"); 
 		scanf("%d", &n);
 		printf("Numero letto dal figlio %d\n", n); 
-		printf("Valore di ppid %d\n", getppid()); 
+		printf("Valore di ppid dopo sicura morte del padre originale %d\n", getppid()); 
 		exit(5); /* abbiamo usato lo stesso valore di prima, ma il padre non lo recupera perche' NON esegue la wait */
 	}
 
 	/* padre */
-	printf("Ho generato il figlio %d. BYE BYE!!!\n", pid); 
+	printf("Sono il padre con pid %d e ho generato il figlio %d. BYE BYE!!!\n", getpid(), pid); 
 	/* il padre termina senza fare la wait del figlio! */
 
 	exit(0);
